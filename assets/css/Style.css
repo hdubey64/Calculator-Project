@@ -29,8 +29,9 @@ section {
 }
 
 .display div {
-   width: 100%;
+   /* width: 100%; */
    padding: 5px;
+   padding-top: 10px;
    margin: 5px;
 }
 
@@ -50,10 +51,18 @@ button {
    padding: 3px 15px;
 }
 .calcuResult {
-   font-size: 2rem;
+   font-size: 1.5rem;
    font-weight: 700;
 }
 .numberKey button {
    margin: 2px 2px 5px auto;
    padding: 3px 15px;
+}
+input {
+   padding: 6px;
+   border: 1px solid cyan;
+   font-size: 1.2rem;
+   background-color: cyan;
+   border-radius: 5px;
+   margin: auto 5px;
 }
