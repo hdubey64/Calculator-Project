@@ -1,0 +1,59 @@
+body {
+   min-height: 80vh;
+   background-color: rgb(66, 66, 66);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+section {
+   border: 2px solid cyan;
+   background-color: white;
+   background-color: cyan;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 5px;
+}
+.calculator {
+   border: 2px solid cyan;
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+
+   align-items: center;
+   text-align: justify;
+}
+.display {
+   display: flex;
+   flex-direction: row;
+}
+
+.display div {
+   width: 100%;
+   padding: 5px;
+   margin: 5px;
+}
+
+button {
+   color: rgb(66, 66, 66);
+   border: 2px solid cyan;
+   border-radius: 5px;
+   background-color: cyan;
+   font-size: 1.5rem;
+   font-weight: 900;
+   width: 150px;
+}
+.symbol button {
+   width: 87px;
+   text-align: center;
+   margin: 2px 2px 5px auto;
+   padding: 3px 15px;
+}
+.calcuResult {
+   font-size: 2rem;
+   font-weight: 700;
+}
+.numberKey button {
+   margin: 2px 2px 5px auto;
+   padding: 3px 15px;
+}
