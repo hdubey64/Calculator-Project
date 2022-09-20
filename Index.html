@@ -13,24 +13,16 @@
             <div class="contant display">
                <div class="input">
                   <input
-                     type="text"
+                     type="number"
                      name=""
                      id="num1"
                      placeholder="Enter Your 1st Number"
                   />
                </div>
-               <div class="input function">
-                  <input
-                     type="operator"
-                     name=""
-                     id="operator"
-                     placeholder="operator"
-                     size="5"
-                  />
-               </div>
+
                <div class="input">
                   <input
-                     type="text"
+                     type="number"
                      name=""
                      id="num2"
                      placeholder="Enter Your 2nd Number"
@@ -38,15 +30,21 @@
                </div>
             </div>
             <div class="contant calcuResult">
-               <div class="result"><h1>0</h1></div>
+               <div><h1 id="result">0</h1></div>
             </div>
             <div class="contant symbol">
                <div class="container operator">
-                  <button class="plus" id="add">+</button>
-                  <button class="minus" id="subtract">-</button>
-                  <button class="astrick" id="multiply">*</button>
-                  <button class="backsless" id="divide">/</button>
-                  <button class="remainder" id="percanteg">%</button>
+                  <button class="plus" id="add" onclick="add()">+</button>
+                  <button class="minus" id="subtract" onclick="minus()">
+                     -
+                  </button>
+                  <button class="astrick" id="multiply" onclick="multiply()">
+                     *
+                  </button>
+                  <button class="backsless" id="divide" onclick="divide()">
+                     /
+                  </button>
+                  <button onclick="remainder()" id="percanteg">%</button>
                </div>
             </div>
             <div class="contant keywords">
@@ -68,10 +66,14 @@
                <div class="numberKey">
                   <button class="ninth" id="nine">9</button>
                   <button class="zeroth" id="zero">0</button>
-                  <button class="equal" id="isequal">=</button>
+                  <button class="equal" id="isequal" onclick="equal()">
+                     =
+                  </button>
                </div>
             </div>
          </div>
       </section>
+
+      <script src="/assets/js/script.js"></script>
    </body>
 </html>
