@@ -45,10 +45,10 @@ button {
    background-color: cyan;
    font-size: 1.5rem;
    font-weight: 900;
-   width: 150px;
+   width: 175px;
 }
 .symbol button {
-   width: 87px;
+   width: 103px;
    text-align: center;
    margin: 2px 2px 5px auto;
    padding: 3px 15px;
